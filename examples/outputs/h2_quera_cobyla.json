@@ -1,0 +1,27 @@
+{
+  "run_id": "a2a035fc-5b9f-43bf-8996-7595c7befe10",
+  "timestamp": "2026-05-19T16:23:41.831838+00:00",
+  "molecule": "H2",
+  "basis_set": "STO-3G",
+  "num_qubits": 2,
+  "provider": "quera",
+  "backend_name": "bloqade_digital_emulator",
+  "is_simulator": true,
+  "qubit_mapping": "parity",
+  "final_energy": -1.8572749333738099,
+  "exact_energy": -1.85727503,
+  "error_mha": 9.662619016026497e-05,
+  "num_iterations": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "max_gradient": 0.7237248,
+      "selected_operator": "SparsePauliOp(['XY', 'YX'],\n              coeffs=[(1+0j), (-1+0j)])",
+      "energy": -1.8572749333738099,
+      "optimal_params": [
+        0.7295464466094067
+      ]
+    }
+  ],
+  "tensir_version": "0.1.0"
+}
