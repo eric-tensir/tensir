@@ -1,8 +1,6 @@
 tensir-env/
 __pycache__/
 *.pyc
-*.json
-outputs/
 .ipynb_checkpoints/
 *.egg-info/
 dist/
