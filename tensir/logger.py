@@ -70,3 +70,11 @@ class TensirLogger:
             json.dump(asdict(self.run), f, indent=2)
         print(f"Run saved → {path}")
         return path
+
+
+    def log(self, iteration, max_gradient, selected_operator, energy, params):
+        self.log_iteration(iteration, max_gradient, selected_operator, energy, params)
+
+    def done(self, final_energy, path="tensir_run.json"):
+        self.finalize(final_energy)
+        return self.save(path)
