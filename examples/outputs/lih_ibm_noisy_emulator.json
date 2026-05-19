@@ -1,0 +1,235 @@
+{
+  "run_id": "ed59c3f1-3ec9-4b2d-8655-d02ef46096f0",
+  "timestamp": "2026-05-19T10:30:09.728807+00:00",
+  "molecule": "LiH",
+  "basis_set": "STO-3G",
+  "num_qubits": 10,
+  "provider": "ibm",
+  "backend_name": "ibm_fez_noisy_emulator",
+  "is_simulator": true,
+  "qubit_mapping": "parity",
+  "final_energy": -8.874074137411434,
+  "exact_energy": -7.8823622,
+  "error_mha": 991.7119374114334,
+  "num_iterations": 14,
+  "iterations": [
+    {
+      "iteration": 1,
+      "max_gradient": 0.2478529048116129,
+      "selected_operator": "SparsePauliOp(['XXXXZYXXXZ', 'YXXXZXXXXZ', 'YXXYIYXXXZ', 'XXXYIXXXXZ', 'YXXXZYXXYI', 'XXXXZXXXYI', 'XXXYIYXXYI', 'YXXYIXXXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.868641575245926,
+      "optimal_params": [
+        -0.11699999999999999
+      ]
+    },
+    {
+      "iteration": 2,
+      "max_gradient": 0.07383620300349675,
+      "selected_operator": "SparsePauliOp(['IIZXZYXXXZ', 'IIIYZXXXXZ', 'IIIXIYXXXZ', 'IIZYIXXXXZ', 'IIIYZYXXYI', 'IIZXZXXXYI', 'IIZYIYXXYI', 'IIIXIXXXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j, -0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j,  0.125+0.j])",
+      "energy": -8.870551728967937,
+      "optimal_params": [
+        -0.11781028479379713,
+        0.05165205518866191
+      ]
+    },
+    {
+      "iteration": 3,
+      "max_gradient": 0.07098199962923644,
+      "selected_operator": "SparsePauliOp(['XXXXZIIIYZ', 'YXXXZIIZXZ', 'YXXYIIIIYZ', 'XXXYIIIZXZ', 'YXXXZIIIXI', 'XXXXZIIZYI', 'XXXYIIIIXI', 'YXXYIIIZYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j, -0.125+0.j, -0.125+0.j,\n  0.125+0.j, -0.125+0.j])",
+      "energy": -8.872320259528175,
+      "optimal_params": [
+        -0.11861495298668057,
+        0.049765256240413044,
+        0.04978082061549433
+      ]
+    },
+    {
+      "iteration": 4,
+      "max_gradient": 0.043058213936062614,
+      "selected_operator": "SparsePauliOp(['IIZXXIIIYX', 'IIIYXIIZXX', 'IIIYYIIIYX', 'IIZXYIIZXX', 'IIIYXIIIYY', 'IIZXXIIZXY', 'IIZXYIIIYY', 'IIIYYIIZXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.872407863215006,
+      "optimal_params": [
+        -0.11855708552846812,
+        0.049595749044878346,
+        0.049903687460884714,
+        -0.004060903983320074
+      ]
+    },
+    {
+      "iteration": 5,
+      "max_gradient": 0.039689729310671995,
+      "selected_operator": "SparsePauliOp(['IIZXZIIIYZ', 'IIIYZIIZXZ', 'IIIXIIIIYZ', 'IIZYIIIZXZ', 'IIIYZIIIXI', 'IIZXZIIZYI', 'IIZYIIIIXI', 'IIIXIIIZYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j, -0.125+0.j, -0.125+0.j, -0.125+0.j, -0.125+0.j,\n  0.125+0.j,  0.125+0.j])",
+      "energy": -8.873003400731255,
+      "optimal_params": [
+        -0.1178908802962944,
+        0.05371513411326315,
+        0.05389405911152109,
+        -0.003985552907108269,
+        -0.02995082361731347
+      ]
+    },
+    {
+      "iteration": 6,
+      "max_gradient": 0.035977639906939425,
+      "selected_operator": "SparsePauliOp(['IZXXZIIYXZ', 'IIYXZIZXXZ', 'IIYYIIIYXZ', 'IZXYIIZXXZ', 'IIYXZIIYYI', 'IZXXZIZXYI', 'IZXYIIIYYI', 'IIYYIIZXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.873489068237326,
+      "optimal_params": [
+        -0.11740565816394413,
+        0.05302864868969849,
+        0.05296744632897858,
+        -0.003998643851965898,
+        -0.028266995821498716,
+        -0.027003660427782506
+      ]
+    },
+    {
+      "iteration": 7,
+      "max_gradient": 0.03526888599393518,
+      "selected_operator": "SparsePauliOp(['ZXXXZIYXXZ', 'IYXXZZXXXZ', 'IYXYIIYXXZ', 'ZXXYIZXXXZ', 'IYXXZIYXYI', 'ZXXXZZXXYI', 'ZXXYIIYXYI', 'IYXYIZXXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.873956256589114,
+      "optimal_params": [
+        -0.11670328720225631,
+        0.052125192948345236,
+        0.0522192920401091,
+        -0.00401802167355143,
+        -0.026389602116638752,
+        -0.02651184287907565,
+        -0.02645584782776794
+      ]
+    },
+    {
+      "iteration": 8,
+      "max_gradient": 0.01868625931349253,
+      "selected_operator": "SparsePauliOp(['ZXXXXIYXXX', 'IYXXXZXXXX', 'IYXXYIYXXX', 'ZXXXYZXXXX', 'IYXXXIYXXY', 'ZXXXXZXXXY', 'ZXXXYIYXXY', 'IYXXYZXXXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.873972305841459,
+      "optimal_params": [
+        -0.11672050286016687,
+        0.052075675738357,
+        0.052330971948391106,
+        -0.004005075028734051,
+        -0.026415761150809108,
+        -0.026482374316419702,
+        -0.02626033659026999,
+        -0.0017562016896606023
+      ]
+    },
+    {
+      "iteration": 9,
+      "max_gradient": 0.018616104592356766,
+      "selected_operator": "SparsePauliOp(['IZXXXIIYXX', 'IIYXXIZXXX', 'IIYXYIIYXX', 'IZXXYIZXXX', 'IIYXXIIYXY', 'IZXXXIZXXY', 'IZXXYIIYXY', 'IIYXYIZXXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.873988288081158,
+      "optimal_params": [
+        -0.11676426961880086,
+        0.05218783562560055,
+        0.05228546127905116,
+        -0.0039724179469142,
+        -0.02626361739655939,
+        -0.02645682896526022,
+        -0.026529485497237697,
+        -0.001721131641971056,
+        -0.0017275754036185655
+      ]
+    },
+    {
+      "iteration": 10,
+      "max_gradient": 0.013823734979498117,
+      "selected_operator": "SparsePauliOp(['IZXXXIIYXZ', 'IIYXXIZXXZ', 'IIYXYIIYXZ', 'IZXXYIZXXZ', 'IIYXXIIYYI', 'IZXXXIZXYI', 'IZXXYIIYYI', 'IIYXYIZXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.874008950854986,
+      "optimal_params": [
+        -0.11670804377940647,
+        0.05215144300769684,
+        0.052130217889042374,
+        -0.003977653153853667,
+        -0.026300025357209107,
+        -0.026257420052023518,
+        -0.026356450139413064,
+        -0.0017114376188469788,
+        -0.0017955542156498161,
+        -0.0029438413608669943
+      ]
+    },
+    {
+      "iteration": 11,
+      "max_gradient": 0.013823490359192734,
+      "selected_operator": "SparsePauliOp(['ZXXXZIYXXX', 'IYXXZZXXXX', 'IYXYIIYXXX', 'ZXXYIZXXXX', 'IYXXZIYXXY', 'ZXXXZZXXXY', 'ZXXYIIYXXY', 'IYXYIZXXXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.874029610859974,
+      "optimal_params": [
+        -0.11680498642536495,
+        0.052009986816124426,
+        0.05217713469431215,
+        -0.003961150324064806,
+        -0.02629674766410724,
+        -0.026342888193583863,
+        -0.026399159148434326,
+        -0.0017651683890640398,
+        -0.001746558585429015,
+        -0.0030365393220453465,
+        -0.0029394656335078656
+      ]
+    },
+    {
+      "iteration": 12,
+      "max_gradient": 0.01365665863033447,
+      "selected_operator": "SparsePauliOp(['ZXXXXIYXXZ', 'IYXXXZXXXZ', 'IYXXYIYXXZ', 'ZXXXYZXXXZ', 'IYXXXIYXYI', 'ZXXXXZXXYI', 'ZXXXYIYXYI', 'IYXXYZXXYI'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.874049815690082,
+      "optimal_params": [
+        -0.11667649420122247,
+        0.052044099578146076,
+        0.05222178565397577,
+        -0.003982990914388393,
+        -0.026364919783439956,
+        -0.026255188265899797,
+        -0.026379328749233336,
+        -0.0018395807328091106,
+        -0.001781419590757642,
+        -0.002931470272204543,
+        -0.002996594011226952,
+        -0.0029438169428835487
+      ]
+    },
+    {
+      "iteration": 13,
+      "max_gradient": 0.013664913592724655,
+      "selected_operator": "SparsePauliOp(['IZXXZIIYXX', 'IIYXZIZXXX', 'IIYYIIIYXX', 'IZXYIIZXXX', 'IIYXZIIYXY', 'IZXXZIZXXY', 'IZXYIIIYXY', 'IIYYIIZXXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.874070012985444,
+      "optimal_params": [
+        -0.11678843749374286,
+        0.05211066954563614,
+        0.05229976892673533,
+        -0.003988380291380611,
+        -0.02649900047794164,
+        -0.026240086237272163,
+        -0.026117767300668334,
+        -0.0018214247923544786,
+        -0.0018139091989516508,
+        -0.0030370111791169214,
+        -0.0029645489679044055,
+        -0.00296338005286505,
+        -0.002912787559181957
+      ]
+    },
+    {
+      "iteration": 14,
+      "max_gradient": 0.013526118006618718,
+      "selected_operator": "SparsePauliOp(['XXXXXYXXXX', 'YXXXXXXXXX', 'YXXXYYXXXX', 'XXXXYXXXXX', 'YXXXXYXXXY', 'XXXXXXXXXY', 'XXXXYYXXXY', 'YXXXYXXXXY'],\n              coeffs=[ 0.125+0.j,  0.125+0.j,  0.125+0.j, -0.125+0.j,  0.125+0.j, -0.125+0.j,\n -0.125+0.j, -0.125+0.j])",
+      "energy": -8.874074137411434,
+      "optimal_params": [
+        -0.11718298233322737,
+        0.05353583966347726,
+        0.051975721048456644,
+        -0.004033423568185711,
+        -0.026884836255389927,
+        -0.025472826229370107,
+        -0.02496941931272165,
+        -0.0018331340682732947,
+        -0.0018980058294900076,
+        -0.0028496840321909737,
+        -0.0028890577841946597,
+        -0.003020192822823901,
+        -0.00308962621117654,
+        -0.0011149188285738227
+      ]
+    }
+  ],
+  "tensir_version": "0.1.0"
+}
