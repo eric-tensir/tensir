@@ -1,0 +1,27 @@
+{
+  "run_id": "ab312659-6152-45d4-a114-68c8c002008d",
+  "timestamp": "2026-05-19T10:05:01.070914+00:00",
+  "molecule": "H2",
+  "basis_set": "STO-3G",
+  "num_qubits": 2,
+  "provider": "ibm",
+  "backend_name": "aer_simulator",
+  "is_simulator": true,
+  "qubit_mapping": "parity",
+  "final_energy": -1.8572749386643546,
+  "exact_energy": -1.85727503,
+  "error_mha": 9.133564549124173e-05,
+  "num_iterations": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "max_gradient": 0.7237248,
+      "selected_operator": "SparsePauliOp(['XY', 'YX'],\n              coeffs=[ 1.+0.j, -1.+0.j])",
+      "energy": -1.8572749386643546,
+      "optimal_params": [
+        0.055900000000000005
+      ]
+    }
+  ],
+  "tensir_version": "0.1.0"
+}
