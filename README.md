@@ -1,6 +1,6 @@
 # tensir
 
-QPE run logging infrastructure for quantum chemistry.
+ADAPT-VQE and QPE run logging infrastructure for quantum chemistry.
 
 ## Install
 
